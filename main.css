@@ -1,0 +1,14 @@
+.main-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.main_text > .video {
+    flex: 2;
+}
+
+.main_text > .text {
+    flex: 2;
+}
