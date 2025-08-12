@@ -1,35 +1,50 @@
-body{
-    background-color: rgb(245, 242, 211);
-}
+@font-face {
+    font-family: 'Times New Roman MT Condensed Regular';
+    src: url('/Users/emilyyip/Desktop/fonts/Times New Roman MT Condensed Regular') format('woff2'),
+       url('/Users/emilyyip/Desktop/fonts/Times New Roman MT Condensed Regular') format('woff');
+    font-weight: 300;
+    font-style: italic;
+  }
+
 .main-text{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 100px;
-    max-width: 50%;
-    margin: 200px auto 0 auto;
+    gap: 400px;
+    max-width: 60%;
+    margin: 100px auto 0 auto;
+    text-align: center;
 }
 
 .main_text > .video {
     flex: 0 0 45%;
-    margin-left: 70%;
-    margin-right: 70%;
 }
 
-.main_text > .text {
-    flex: 0 0 20%;
-    margin-left: 70%;
-    margin-right: 80%;
+.main_text > .side-text {
+    flex: 0 0 45%;
+    margin-left: 50px;
 }
 
 text{
     font-family: 'Helvetica', sans-serif;
-    font-size: 50px;
+    font-size: 17px;
+    font-weight: 300;
 }
 
 .header{
     font-family: 'Times New Roman MT Condensed Regular', 'Times New Roman';
     font-style: italic;
-    font-size: 90px;
+    font-weight: 300;
+    font-size: 60px;
     color: #96aec6;
+}
+
+.site-footer{
+    justify-content: row;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
 }
