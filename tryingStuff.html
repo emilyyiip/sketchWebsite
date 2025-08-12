@@ -18,7 +18,8 @@
 
   <header class="relative min-h-[120vh] overflow-hidden flex items-center justify-center">
     <div class="relative z-10 text-center px-6">
-      <h1 class="text-5xl md:text-7xl font-bold leading-tight">scroll‑Scrubbed Frames</h1>
+        <h1> hi im emory</h1>
+    </div>
   </header>
 
   <section id="seq" class="relative h-[250vh]">
@@ -123,18 +124,5 @@ function onScroll() {
 document.addEventListener('scroll', onScroll, { passive: true });
 window.addEventListener('resize', onScroll);
 </script>
-
-    // Extra debugging: log 404s for frames
-    // This creates an off-DOM image for the current frame and logs if it fails.
-    function verifyCurrentFrame() {
-      const idx = frameEl.dataset.cur ? Number(frameEl.dataset.cur) : 1;
-      const img = new Image();
-      img.onload = () => { if (DEBUG) console.log('Loaded OK:', img.src); };
-      img.onerror = () => { console.error('Frame missing or path wrong:', img.src); alert('Could not load: ' + img.src + '\nCheck path, extension, or run a local server.'); };
-      img.src = SEQ.path(idx);
-    }
-    // Uncomment to verify first frame on load:
-    // verifyCurrentFrame();
-  </script>
 </body>
 </html>
