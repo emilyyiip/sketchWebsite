@@ -1,8 +1,11 @@
+body{
+    background-color: rgb(245, 242, 211);
+}
 .main-text{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 10px;
+    gap: 100px;
     max-width: 50%;
     margin: 200px auto 0 auto;
 }
@@ -14,5 +17,19 @@
 }
 
 .main_text > .text {
-    flex: 0 0 45%;
+    flex: 0 0 20%;
+    margin-left: 70%;
+    margin-right: 80%;
+}
+
+text{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 50px;
+}
+
+.header{
+    font-family: 'Times New Roman MT Condensed Regular', 'Times New Roman';
+    font-style: italic;
+    font-size: 90px;
+    color: #96aec6;
 }
