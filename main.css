@@ -29,7 +29,7 @@
     opacity: 0.8; 
     }
 
-/** right text blocks **/
+/** general blueprint for right text blocks **/
 .panel{
     display: flex;
     flex-direction: row;
@@ -43,7 +43,7 @@
 
 .text{
     font-family: 'Helvetica', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 300;
 }
 
@@ -51,7 +51,7 @@
     font-family: 'Times New Roman MT Condensed Regular', 'Times New Roman';
     font-style: italic;
     font-weight: 300;
-    font-size: 60px;
+    font-size: 40px;
     color: #7499b4;
 }
 
@@ -80,3 +80,4 @@ img:hover{
 .second_panel{
     padding-top: 100px;
 }
+
