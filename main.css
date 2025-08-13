@@ -11,11 +11,11 @@
     justify-content: center;
     flex-direction: row;
     list-style-type: none;
+    margin: 0 auto;
 
 }
 .nav-bar li {
     display: inline-block; 
-    padding-top: 10rem;
     margin: 20px;
 }
 
@@ -53,7 +53,7 @@
     font-style: italic;
     font-weight: 300;
     font-size: 40px;
-    color: #7499b4;
+    /*color: #7499b4;*/
 }
 
 /** footer**/
@@ -77,6 +77,15 @@ video:hover{
     cursor: url('media/pencil_icon.png') 0 0, auto;
 }
 
+.logo{
+    display: block;
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 20px;
+
+}
 /** panel2 **/
 .second_panel{
     padding-top: 100px;
