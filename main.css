@@ -16,7 +16,7 @@
 .nav-bar li {
     display: inline-block; 
     padding-top: 10rem;
-    margin: 0 10px;
+    margin: 20px;
 }
 
 .nav-bar a{
@@ -68,17 +68,22 @@
 }
 
 /**images**/
-img{
-    max-width: 600px;
-    max-height: 600px;
+video{
+    width: 100%;
+    height: 100%;
 }
 
-img:hover{
+video:hover{
     cursor: url('media/pencil_icon.png') 0 0, auto;
 }
 
 /** panel2 **/
 .second_panel{
+    padding-top: 100px;
+}
+
+/** third panel**/
+.third_panel{
     padding-top: 100px;
 }
 
