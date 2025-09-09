@@ -35,10 +35,11 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 200px;
-    max-width: 70%;
-    margin: 70px auto 0 auto;
+    max-width: 60%;
+    margin: 80px auto 0 auto;
     text-align: center;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 
@@ -68,12 +69,12 @@
 }
 
 /**images**/
-video{
+visual{
     width: 100%;
     height: 100%;
 }
 
-video:hover{
+visual:hover{
     cursor: url('media/pencil_icon.png') 0 0, auto;
 }
 
