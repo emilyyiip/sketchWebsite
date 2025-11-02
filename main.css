@@ -30,7 +30,7 @@
     }
 
 /** general blueprint for right text blocks **/
-.panel{
+.panel {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,6 +42,10 @@
     padding-bottom: 100px;
 }
 
+.visual .cover{
+    display:block;
+    z-index:2;
+}
 
 .text{
     font-family: 'Helvetica', sans-serif;
@@ -69,12 +73,17 @@
 }
 
 /**images**/
-visual{
+.visualImg{
     width: 100%;
     height: 100%;
 }
 
-visual:hover{
+.visualVid{
+    display: None;
+}
+
+.visualImg:hover + .visualVid{
+    display:block;
     cursor: url('media/pencil_icon.png') 0 0, auto;
 }
 
