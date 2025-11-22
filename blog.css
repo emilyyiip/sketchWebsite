@@ -1,0 +1,19 @@
+.toc .title{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 8 px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.toc .date{
+    font-style: italic;
+    font-family: 'Helvetica', sans-serif;
+}
+.header-text{
+    display:flex;
+    font-family: 'Helvetica', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+

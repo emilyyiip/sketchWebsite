@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'Times New Roman MT Condensed Regular';
-    src: url('/Users/emilyyip/Desktop/fonts/Times New Roman MT Condensed Regular') format('woff2'),
-        url('/Users/emilyyip/Desktop/fonts/Times New Roman MT Condensed Regular') format('woff');
-    font-weight: 300;
-    font-style: italic;
-}
 /* nav bar*/
 .nav-bar ul{
     display:flex;
@@ -34,23 +27,23 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 200px;
-    max-width: 60%;
-    margin: 80px auto 0 auto;
+    gap: 100px;
+    max-width: 70%;
+    max-height: 70%;
+    margin: 100px auto 0 auto;
     text-align: center;
     align-items: center;
     padding-bottom: 100px;
-}
-
-.visual .cover{
-    display:block;
-    z-index:2;
 }
 
 .text{
     font-family: 'Helvetica', sans-serif;
     font-size: 15px;
     font-weight: 300;
+}
+
+.side-text{
+    max-width: 40%;
 }
 
 .header{
@@ -73,17 +66,10 @@
 }
 
 /**images**/
-.visualImg{
+video{
+    display:block;
     width: 100%;
     height: 100%;
-}
-
-.visualVid{
-    display: None;
-}
-
-.visualImg:hover + .visualVid{
-    display:block;
     cursor: url('media/pencil_icon.png') 0 0, auto;
 }
 
