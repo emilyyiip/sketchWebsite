@@ -22,7 +22,6 @@
     opacity: 0.8; 
     }
 
-/** general blueprint for right text blocks **/
 .panel {
     display: flex;
     flex-direction: row;
@@ -46,12 +45,15 @@
     max-width: 40%;
 }
 
-.header{
+h1,h2,h3{
     font-family: 'Times New Roman MT Condensed Regular', 'Times New Roman';
     font-style: italic;
     font-weight: 300;
     font-size: 40px;
-    /*color: #7499b4;*/
+}
+
+p{
+    font-family: Helvetica, sans-serif
 }
 
 /** footer**/
@@ -70,7 +72,6 @@ video{
     display:block;
     width: 100%;
     height: 100%;
-    cursor: url('media/pencil_icon.png') 0 0, auto;
 }
 
 .logo{
